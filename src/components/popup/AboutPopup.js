@@ -18,7 +18,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
             <div className="author">
               <div className="avatar_image">
                 <img src="img/thumbs/1-1.jpg" alt="" />
-                <div className="main" data-img-url="img/about/1.jpg" />
+                <div className="main" data-img-url="img/about/Tasha.jpeg" />
               </div>
               <div className="short">
                 <h3 className="name">
@@ -77,7 +77,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </ul>
             </div>
             <div className="edrea_tm_button full">
-              <a href="img/about/1.jpg" download>
+              <a href="img/about/resume.pdf" download>
                 Download CV
               </a>
             </div>
@@ -126,7 +126,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               <div className="about_title">
                 <h3>
                   <span>
-                    Programming <span className="coloring">Skills</span>
+                    Engineering <span className="coloring">Skills</span>
                   </span>
                 </h3>
               </div>

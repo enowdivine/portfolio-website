@@ -3,44 +3,58 @@ import AnimatedText from "./AnimatedText";
 import AboutPopup from "./popup/AboutPopup";
 
 const aboutData = {
-  firstName: "David",
-  lastName: "Parker",
+  firstName: "TASHA",
+  lastName: "ELVIS",
   bithday: "01.07.1990",
-  address: "Avon str. 22, NYC, USA",
-  phn: "+77 022 155 02 02",
-  email: "example@gmail.com",
+  address: "Molyko Buea, Cameroon",
+  phn: "(+237) 673-504-684",
+  email: "elvismbeuge@gmail.com",
   serviceLists: [
-    "Website Development",
-    "Digital Experience",
-    "Content Marketing",
-    "Social Media Design",
-    "Shared Web Hosting",
+    "Home Automation",
+    "Electrical Installation",
+    "Security Camera Installation",
+    "Electrical/Electronics Consultant",
+    "Software Development",
   ],
   skills: {
     programming: [
-      { name: "WordPress", value: "95" },
-      { name: "JavaScript", value: "80" },
-      { name: "Angular", value: "90" },
+      { name: "C", value: "80" },
+      { name: "C++", value: "80" },
+      { name: "Python", value: "90" },
     ],
     language: [
       { name: "English", value: "95" },
-      { name: "Russian", value: "80" },
-      { name: "Arabic", value: "90" },
+      { name: "French", value: "80" },
     ],
   },
   education: [
-    { year: "2014 - 2016", unv: "Oxford Univercity", degree: "Master Degree" },
-    { year: "2010 - 2014", unv: "Texas Univercity", degree: "Bachelor Degree" },
-    { year: "2008 - 2010", unv: "Simone College", degree: "Associate Degree" },
+    {
+      year: "2016 - 2019",
+      unv: "Siantou University Institute | BTS",
+      degree: "Mechanical Engineering",
+    },
+    {
+      year: "2018 - 2021",
+      unv: "University Of BUEA | B.eng",
+      degree: "Electrical and Electronics Engineering",
+    },
   ],
   working: [
     {
       year: "2018 - running",
-      company: "Envato Elements",
-      deg: "Exclusive Author",
+      company: "Camerimun | Volunteer",
+      deg: "Promoting the sustainable development goals of the United Nation",
     },
-    { year: "2015 - 2018", company: "Avo Corporation", deg: "Content Manager" },
-    { year: "2012 - 2015", company: "FC Barcelona", deg: "Football Player" },
+    {
+      year: "2017 - 2018",
+      company: "Metafrik | Intern",
+      deg: "Mechanical Engineering department",
+    },
+    {
+      year: "2016 - 2017",
+      company: "Goodwill Consulting Ltd | Intern",
+      deg: "Consulting Department",
+    },
   ],
   partnersLogos: [
     "img/partners/1.png",
@@ -65,7 +79,7 @@ const About = () => {
             <div className="left">
               <div className="image">
                 <img src="img/thumbs/1-1.jpg" alt="" />
-                <div className="main" data-img-url="img/about/1.jpg" />
+                <div className="main" data-img-url="img/about/Tasha.jpeg" />
               </div>
             </div>
             <div className="right">
