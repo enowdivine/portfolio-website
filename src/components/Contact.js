@@ -19,10 +19,10 @@ const Contact = () => {
     } else {
       emailjs
         .send(
-          "service_seruhwu", // service id
-          "template_21aw58z", // template id
+          "service_gm04u8c", // service id
+          "template_twpx9ni", // template id
           mailData,
-          "Q3pccdLZhU-mZT7tQ" // public api
+          "zHWA2N1Q_LzmLmfXM" // public api
         )
         .then(
           (response) => {
@@ -58,7 +58,7 @@ const Contact = () => {
                     <i className="icon-location" />
                     <span>
                       <a href="#" className="href_location">
-                        Avon str. 22, NYC, USA
+                        Molyko Buea,Cameroon
                       </a>
                     </span>
                   </div>
@@ -67,7 +67,7 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-phone" />
                     <span>
-                      <a href="#">+77 022 155 02 02</a>
+                      <a href="tel:+237673-504-684">(+237) 673-504-684</a>
                     </span>
                   </div>
                 </li>
@@ -75,7 +75,9 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-mail-1" />
                     <span>
-                      <a href="mailto:example@gmail.com">example@gmail.com</a>
+                      <a href="mailto:elvismbeuge@gmail.com">
+                        elvismbeuge@gmail.com
+                      </a>
                     </span>
                   </div>
                 </li>
@@ -83,7 +85,29 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-facebook-rect" />
                     <span>
-                      <a href="https://www.facebook.com">@facebookNick</a>
+                      <a href="https://www.facebook.com/tashaelvismbeuge">
+                        @tashaelvismbeuge
+                      </a>
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div className="list_inner">
+                    <i className="icon-linkedin-1" />
+                    <span>
+                      <a href="https://www.linkedin.com/tasha_elvis_mbeuge">
+                        @tasha_elvi s_mbeuge
+                      </a>
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div className="list_inner">
+                    <i className="icon-twitter-4" />
+                    <span>
+                      <a href="https://www.twitter.com/tashaelvis">
+                        @tashaelvis
+                      </a>
                     </span>
                   </div>
                 </li>

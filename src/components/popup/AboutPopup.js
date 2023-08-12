@@ -95,10 +95,14 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </div>
               <div className="text">
                 <p>
-                  Hello everybody! My name is <span>David Parker.</span> I am a
-                  graphic designer, and {`I'm`} very passionate and dedicated to
-                  my work. With 20 years experience as a professional a graphic
-                  designer, I have acquired the skills and knowledge.
+                  My name is <span>Tasha Elvis.</span> Self-
+                  motivated,Enthusiasticsupervisorexperiencedinprovi ding
+                  encouragement and direction to current andfuture students
+                  working toward humanitarianobjectives. Committed to providing
+                  compassionate support while capitalizing on networking
+                  opportunities.Catalyst for change through mobilizing support
+                  toachieve youth initiatives.Motivated to learn, grow
+                  andexcelinTechnology
                 </p>
               </div>
             </div>

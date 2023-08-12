@@ -5,7 +5,7 @@ import AboutPopup from "./popup/AboutPopup";
 const aboutData = {
   firstName: "TASHA",
   lastName: "ELVIS",
-  bithday: "01.07.1990",
+  bithday: "18.09.1996",
   address: "Molyko Buea, Cameroon",
   phn: "(+237) 673-504-684",
   email: "elvismbeuge@gmail.com",
@@ -18,9 +18,15 @@ const aboutData = {
   ],
   skills: {
     programming: [
-      { name: "C", value: "80" },
-      { name: "C++", value: "80" },
-      { name: "Python", value: "90" },
+      { name: "Hardware development", value: "80" },
+      { name: "Autocard software", value: "80" },
+      { name: "Arduino", value: "90" },
+      { name: "House Electrification", value: "80" },
+      { name: "solar panels installation", value: "80" },
+      { name: "Leadership skills", value: "90" },
+      { name: "Robotics", value: "80" },
+      { name: "people management", value: "80" },
+      { name: "Teaching experience", value: "90" },
     ],
     language: [
       { name: "English", value: "95" },
@@ -41,7 +47,59 @@ const aboutData = {
   ],
   working: [
     {
-      year: "2018 - running",
+      year: "2020 - Running",
+      company: "Mountain University Buea | Lecturer",
+      deg: "Lecturing Electrical power sytem and Circuit analysis",
+    },
+    {
+      year: "2020 - Running",
+      company: "JCI Buea Summit | President",
+      deg: "We are you active citizens all over the world. Living,communicating,taking action and creating impact in our communities.",
+    },
+    {
+      year: "2020 - Running",
+      company: "Model Initiative of Africa (MIA) | National Supervisor",
+      deg: "Youth-led organization committed in bringing contribution and experience towards strengthening and addressing particular issues slowing the socioeconomic in Africa and Cameroon.",
+    },
+    {
+      year: "2020 - 2021",
+      company:
+        "Mogi Global Leadership School Graduate Center | Country Program Director",
+      deg: "",
+    },
+    {
+      year: "2019 - Running",
+      company: "Summit Tech Ltd | Founder/CEO",
+      deg: "Technological company made of Ideal Engineers with the aim of improving Technology in Africa",
+    },
+    {
+      year: "2019 - 2021",
+      company: "Faculty of Engineering and Technology | Faculty President",
+      deg: "The Faculty of engineering and Technology Students Association (FETSA)",
+    },
+    {
+      year: "2019 - 2020",
+      company: "United Nation Student Association (UNSA) | Financial Director",
+      deg: "Promoting the Sustainable Development goals and the United Nation and Al's increasing the ambassador of United nation in schools",
+    },
+    {
+      year: "2019 - 2020",
+      company: "Dangote Cement Cameroon | Intern",
+      deg: "Intern under electrical engineering department.Electrical installation,automatic control systems and AC machines.",
+    },
+    {
+      year: "2018 - Running",
+      company:
+        "Center of Excellence And Career Orientation | National Cordinator",
+      deg: "National center for Career orientation and scholarship opportunities",
+    },
+    {
+      year: "2018 - Running",
+      company: "Greenpoint Africa | Team Lead",
+      deg: "Enhancing and Formation of Youths for a better Africa",
+    },
+    {
+      year: "2018 - Running",
       company: "Camerimun | Volunteer",
       deg: "Promoting the sustainable development goals of the United Nation",
     },
@@ -57,10 +115,13 @@ const aboutData = {
     },
   ],
   partnersLogos: [
-    "img/partners/1.png",
-    "img/partners/2.png",
-    "img/partners/3.png",
-    "img/partners/4.png",
+    "img/partners/heroes.jpeg",
+    "img/partners/natex.jpg",
+    "img/partners/peace.jpeg",
+    "img/partners/sta.jpg",
+    "img/partners/summittech.jpeg",
+    "img/partners/dip.jpeg",
+    "img/partners/gwc.png",
   ],
 };
 
@@ -94,10 +155,14 @@ const About = () => {
               </div>
               <div className="text">
                 <p>
-                  My name is <span>David Parker.</span> I am a graphic designer,
-                  and {`I'm`} very passionate and dedicated to my work. With 20
-                  years experience as a professional a graphic designer, I have
-                  acquired the skills and knowledge.
+                  My name is <span>Tasha Elvis.</span> Self-
+                  motivated,Enthusiasticsupervisorexperiencedinprovi ding
+                  encouragement and direction to current andfuture students
+                  working toward humanitarianobjectives. Committed to providing
+                  compassionate support while capitalizing on networking
+                  opportunities.Catalyst for change through mobilizing support
+                  toachieve youth initiatives.Motivated to learn, grow
+                  andexcelinTechnology
                 </p>
               </div>
               <div className="edrea_tm_button">

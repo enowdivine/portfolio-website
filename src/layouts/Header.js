@@ -11,8 +11,13 @@ const Header = () => {
     <div className="edrea_tm_header">
       <div className="header_inner">
         <div className="logo">
-          <a href="#" onClick={() => changeNav("home")}>
-            <img src="img/logo/logo.png" alt="" />
+          <a
+            href="/"
+            onClick={() => changeNav("home")}
+            style={{ textDecoration: "none" }}
+          >
+            {/* <img src="img/logo/logo.png" alt="" /> */}
+            <h2 className="coloring">TASHA</h2>
           </a>
         </div>
         <div className="menu">
