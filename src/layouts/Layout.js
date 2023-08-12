@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
   return (
     <State>
       <Head>
-        <link rel="icon" type="image/png" href="img/T.png" />
+        <link rel="icon" type="image/png" href="img/T-red.png" />
         <title>Tasha Elvis | Portfolio</title>
 
         <link
